@@ -1,0 +1,86 @@
+.first-section-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.anim-heading {
+    margin: 0;
+}
+.main-heading{
+    font-weight: 900;
+    font-size: 55px;
+    padding: 0;
+    margin: 0;
+    letter-spacing: -2px;
+    line-height: 1.2;
+}
+
+.desc {
+    font-size: 20px;
+    width: 570px;
+    margin: 0;
+}
+
+.startBtn {
+    background-color: rgb(5, 109, 161);
+    border: none;
+    border-radius: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 260px;
+    justify-content:center;
+    margin-top: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buttonText {
+    margin-left: 10px;
+    font-family: "Mukta", sans-serif;
+}
+
+.btnHeading1 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.btnHeading2 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.left-div {
+    margin-right: 5px;
+}
+
+.right-div {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 945px) {
+    .right-div {
+        display: none;
+    }
+    .left-div {
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 596px) {
+    .left-div {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 487px) {
+    .left-div {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 434px) {
+    .left-div {
+        margin-left: 200px;
+    }
+}

@@ -1,0 +1,60 @@
+.kpi-div {
+    margin: 100px 80px;
+    font-family: "Mukta", sans-serif;
+}
+
+.parent-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px; /* Vertical gap between rows */
+    column-gap: 100px; /* Horizontal gap between columns */
+}
+
+.v-grey-line {
+    height: 200px;
+    width: 1px;
+    background-color: rgb(234, 234, 234);
+}
+
+.kpi-heading {
+    font-size: 55px;
+    font-weight: 900;
+    color: #056DA1;
+}
+
+.kpi-p {
+    color: rgb(205, 205, 205);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.kpi-desc {
+    color: black;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 945px) {
+    .parent-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .v-grey-line {
+        display: none;
+    }
+    .kpi {
+        margin-top: 20px;
+    }
+    .kpi-heading {
+        font-size: 60px;
+    }
+    .kpi-p {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .kpi {
+        margin-left: 120px;
+    }
+}

@@ -1,0 +1,38 @@
+.card {
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add this line for the shadow */
+    font-family: "Mukta", sans-serif;
+    cursor: pointer;
+    position: relative;
+}
+
+.card::before {
+    content: "1";
+    position: absolute;
+    top: -50px;
+    right: 10px;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.2); /* Semi-transparent color for background */
+}
+
+.c-heading {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 25px;
+}
+
+.c-desc {
+    margin-left: 25px;
+    color: rgb(129, 129, 129);
+}
+
+@media screen and (max-width: 1207px) {
+    .card {
+        margin-top: 20px;
+    }
+}

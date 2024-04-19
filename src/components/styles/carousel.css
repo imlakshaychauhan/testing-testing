@@ -1,0 +1,16 @@
+.carousel {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 506px) {
+    .carousel {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .carousel {
+        margin-left: 120px;
+    }
+}

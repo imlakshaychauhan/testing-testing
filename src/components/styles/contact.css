@@ -1,0 +1,82 @@
+.contact-div {
+  font-family: "Mukta", sans-serif;
+}
+
+.short-note {
+  font-size: 20px;
+  color: rgb(117, 117, 117);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); /* Add this line for the shadow */
+}
+
+.parent-contact-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.name,
+.email,
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  background-color: #f7f8f9;
+  padding: 10px;
+  margin: 3px;
+  width: 350px;
+  height: 40px;
+  border-radius: 40px;
+}
+input:focus {
+  border-color: #4e97bc;
+}
+
+.contact-form button {
+  background-color: #056da1;
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #091c2f;
+}
+
+@media screen and (max-width: 945px) {
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); /* Add this line for the shadow */
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .contact-form {
+    margin-left: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 494px) {
+  .contact-form {
+    margin-left: 140px;
+  }
+}
